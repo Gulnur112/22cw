@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+        background-color: rgb(207, 249, 213);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+margin: 150px 300px 150px 300px;
+background-color:white;
+width: 500px
+}
+.David{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+}
+.image1{
+    width: 160px;
+    height: 160px;
+}
+.image2{
+    width: 240px;
+    height: 180px;
+}
+.image3{
+    width: 492px;
+    height: 60px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+
+    align-items: center;
+}
+.back {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 0px 0px 20px;
+    background-color: rgba(30, 27, 27, 0.351);
+    color: white;
+}
+
+.nukte {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(30, 27, 27, 0.351);
+    color: white;
+}
+.David{
+    margin: 2px 2px 20px 220px;
+}
+.profile {
+    margin: 2px 130px 20px 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    text-align: center;
+}
+.button1{
+background-color:rgba(0, 0, 0, 0.084);
+  color:rgb(56, 69, 145) ;
+  width: 150px;
+  height: 32px;
+  border: solid white;
+  margin: 5px 0px 20px 0px;
+}
+.up {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.left {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 20px 0px 20px 100px;
+    border: none;
+}
+.right {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 20px 40px 20px 60px;
+    border: none;
+}
+.img1 {
+    padding: 12px
+}
+
+.img1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.img2 {
+    margin: 5px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px
+}
+
+.img3 {
+    display: grid;
+
+
+}
+    
+
